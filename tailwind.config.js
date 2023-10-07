@@ -6,7 +6,18 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        aag: {
+          red: "#FF3100",
+          orange: "#FF7738",
+          yellow: "#F19228",
+        },
+      },
+      fontFamily: {
+        jost: "var(--jost-font)",
+      },
+    },
   },
   plugins: [],
 };
