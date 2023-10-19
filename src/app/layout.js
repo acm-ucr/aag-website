@@ -4,9 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { Jost } from "next/font/google";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const jost = Jost({
   subsets: ["latin"],
@@ -23,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${jost.variable}`}>
-      <body className={`${inter.className} bg-black`}>
+      <body className={` bg-black`}>
         <NavBar />
         <div className="w-full flex flex-col min-h-screen overflow-hidden items-center justify-center mb-20 font-jost">
           {children}
