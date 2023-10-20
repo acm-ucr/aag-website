@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
 
+
 const iconFormat =
   "transition ease-in-out hover:text-aag-red text-6xl flex flex-col justify-center items-center space-y-5";
 const textFormat = "text-lg font-light";
