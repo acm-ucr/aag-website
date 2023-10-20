@@ -10,39 +10,35 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="text-white w-full pt-[8%] overflow-hidden flex justify-between items-end bg-gradient-to-b from-black to-aag-red">
-      <div className="flex items-center scale-50 -translate-x-[20px]">
+    <div className="text-white w-full pt-[15%] pb-[2%] px-[3%] flex justify-between items-end bg-gradient-to-b from-transparent to-aag-red font-jost">
+      <div className="flex items-end scale-110">
         <Image src={logo} alt="logo" />
-        <Image
-          className="translate-x-1/4 translate-y-[15px] text-xxs"
-          src={aag}
-          alt="logo"
-        />
+        <Image className="ml-[10%]" src={aag} alt="logo" />
       </div>
 
-      <div className="flex m-4 font-playfair">
-        <div className=" flex flex-col translate-y-[15px]  -translate-x-[10px]  border-r-2 border-white  text-white p-2 text-xs text-right font-jost">
-          <p className="">Contact Us </p>
-          <p className="">900 University Ave</p>
+      <div className="flex text-white">
+        <div className="flex flex-col border-r-4 mx-2 font-bold text-xl border-white pr-2 text-right">
+          <p>Contact Us </p>
+          <p>900 University Ave</p>
           <p> Riverside, CA</p>
           <p>92521</p>
         </div>
 
-        <div className="flex flex-col items-end translate-y-[22px]">
+        <div className="flex flex-col text-3xl items-center">
           <Link href="https://www.instagram.com/ucraag/">
-            <AiOutlineInstagram className=" text-white hover:opacity-80 hover:text-aag-red activate:opacity-60 activate:text-aag-red" />
+            <AiOutlineInstagram className=" scale-110 mb-0.5 hover:opacity-80 hover:text-aag-red hover:scale-90" />
           </Link>
 
           <Link href="https://www.facebook.com/people/UCR-Aag/61550312611527/">
-            <AiFillFacebook className=" text-white hover:opacity-80 hover:text-aag-red activate:opacity-60 activate:text-aag-red" />
+            <AiFillFacebook className=" my-0.5 hover:opacity-80 hover:text-aag-red hover:scale-90" />
           </Link>
 
           <Link href="https://www.tiktok.com/@ucraag?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1">
-            <BsTiktok className=" text-white hover:opacity-80 hover:text-aag-red activate:opacity-60 activate:text-aag-red" />
+            <BsTiktok className=" my-0.5 text-2xl hover:opacity-80 hover:text-aag-red hover:scale-90" />
           </Link>
 
           <Link href="https://www.youtube.com/@ucraag/videos">
-            <AiFillYoutube className=" text-white hover:opacity-80 hover:text-aag-red activate:opacity-60 activate:text-aag-red" />
+            <AiFillYoutube className="mt-0.5 hover:text-aag-red hover:scale-90" />
           </Link>
         </div>
       </div>
