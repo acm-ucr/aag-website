@@ -1,8 +1,8 @@
-import Title from "@/components/Title";
+import PageTitle from "@/components/PageTitle";
 const Events = () => {
   return (
     <div className="text-white">
-      <Title title="EVENTS" />
+      <PageTitle title="EVENTS" />
     </div>
   );
 };
