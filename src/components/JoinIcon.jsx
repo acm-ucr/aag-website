@@ -67,7 +67,7 @@ const JoinIcon = ({ type }) => {
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >
           <Image
-            className=" fill-aag-red"
+            className="fill-aag-red"
             width="60"
             height="60"
             src="logo.svg"
