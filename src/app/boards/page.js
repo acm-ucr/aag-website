@@ -1,4 +1,4 @@
-import PageTitle from "@/components/pageTitle";
+import PageTitle from "../../components/PageTitle";
 const Boards = () => {
   return (
     <div className="text-white">
