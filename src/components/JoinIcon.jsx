@@ -7,7 +7,7 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
-const JoinIcon = ({type}) => {
+const JoinIcon = ({ type }) => {
   if (type === "gigsalad") {
     return (
       <Link
