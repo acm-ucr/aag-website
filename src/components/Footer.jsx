@@ -11,10 +11,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="text-white w-full pt-[15%] pb-[2%] px-[3%] flex justify-between items-end bg-gradient-to-b from-transparent to-aag-red font-jost">
-      <div className="flex items-end scale-110">
+      <Link href="/" className="flex items-end scale-110">
         <Image src={logo} alt="logo" />
         <Image className="ml-[10%]" src={aag} alt="logo" />
-      </div>
+      </Link>
 
       <div className="flex text-white">
         <div className="flex flex-col border-r-4 mx-2 font-bold text-xl border-white pr-2 text-right">
