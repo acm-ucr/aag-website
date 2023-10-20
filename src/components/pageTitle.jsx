@@ -1,7 +1,11 @@
 import React from "react";
 
-const pageTitle = () => {
-  return <div>pageTitle</div>;
+const PageTitle = ({ title }) => {
+  return (
+    <div className=" py-6 text-white w-full font-jost text-2xl font-bold">
+      {title}
+    </div>
+  );
 };
 
-export default pageTitle;
+export default PageTitle;
