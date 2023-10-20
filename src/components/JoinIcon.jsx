@@ -7,8 +7,8 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
-const JoinIcon = (props) => {
-  if (props.type === "gigsalad") {
+const JoinIcon = ({type}) => {
+  if (type === "gigsalad") {
     return (
       <Link
         className="flex flex-col justify-center items-center space-y-5 no-underline transition ease-in-out hover:opacity-50"
@@ -19,7 +19,7 @@ const JoinIcon = (props) => {
       </Link>
     );
   }
-  if (props.type === "instagram") {
+  if (type === "instagram") {
     return (
       <Link
         className="flex flex-col justify-center items-center space-y-5 no-underline transition ease-in-out hover:opacity-50"
@@ -30,7 +30,7 @@ const JoinIcon = (props) => {
       </Link>
     );
   }
-  if (props.type === "tiktok") {
+  if (type === "tiktok") {
     return (
       <Link
         className="flex flex-col justify-center items-center space-y-5 no-underline transition ease-in-out hover:opacity-50"
@@ -41,7 +41,7 @@ const JoinIcon = (props) => {
       </Link>
     );
   }
-  if (props.type === "youtube") {
+  if (type === "youtube") {
     return (
       <Link
         className="flex flex-col justify-center items-center space-y-5 no-underline transition ease-in-out hover:opacity-50"
@@ -52,7 +52,7 @@ const JoinIcon = (props) => {
       </Link>
     );
   }
-  if (props.type === "facebook") {
+  if (type === "facebook") {
     return (
       <Link
         className="flex flex-col justify-center items-center space-y-5 no-underline transition ease-in-out hover:opacity-50"
