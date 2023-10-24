@@ -8,19 +8,23 @@ import image5 from "../../public/image_5.png";
 
 const ImageBars = () => {
   return (
-    <div className="flex scale-110 my-[10%]">
-      <Image src={image1} alt="Blue Dancer" className="p-1 mb-[7%] mt-[3%]" />
-      <Image src={image4} alt="3 white pic" className="p-1 mt-[10%]" />
+    <div className="flex scale-125 my-[8%]">
+      <Image
+        src={image1}
+        alt="Blue Dancer"
+        className="px-1.5 mb-[7%] mt-[3%]"
+      />
+      <Image src={image4} alt="3 white pic" className="px-1.5 mt-[10%]" />
       <Image
         src={image2}
         alt="Yellow w/purple background"
-        className="p-1 mb-[4%] mt-[6%]"
+        className="px-1.5 mb-[4%] mt-[6%]"
       />
-      <Image src={image5} alt="1 white pic" className="p-1 mb-[11%] " />
+      <Image src={image5} alt="1 white pic" className="px-1.5 mb-[11%] " />
       <Image
         src={image3}
         alt="Red Background"
-        className="p-1 mb-[2%] mt-[8%]"
+        className="px-1.5 mb-[2%] mt-[8%]"
       />
     </div>
   );
