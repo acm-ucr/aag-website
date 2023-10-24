@@ -9,8 +9,8 @@ import {
 import { BiLogoTiktok } from "react-icons/bi";
 
 const iconFormat =
-  "transition ease-in-out hover:text-aag-red text-6xl flex flex-col justify-center items-center space-y-5";
-const textFormat = "text-lg font-light";
+  "transition ease-in-out hover:text-aag-red text-7xl flex flex-col justify-center items-center space-y-5";
+const textFormat = "text-xl font-light";
 
 const JoinIcon = ({ type }) => {
   if (type === "instagram") {
@@ -67,9 +67,9 @@ const JoinIcon = ({ type }) => {
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >
           <Image
-            className="fill-aag-red"
-            width="60"
-            height="60"
+            className="fill-aag-red pt-1"
+            width="70"
+            height="70"
             src="logo.svg"
           />
           <p className="text-xl font-light mt-4">GigSalad</p>

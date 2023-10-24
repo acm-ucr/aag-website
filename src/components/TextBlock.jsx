@@ -6,7 +6,7 @@ const TextBlock = ({ title, text }) => {
       {title === "ABOUT US" && (
         <p className="text-aag-red text-xl mb-3 font-bold">who we are</p>
       )}
-      <div className="text-3xl pl-3 font-bold border-l-8 border-aag-red mb-[8%]">
+      <div className="text-4xl pl-3 font-bold border-l-[10px] border-aag-red mb-[8%]">
         {title}
       </div>
       <p className="text-xl text-center">{text}</p>
