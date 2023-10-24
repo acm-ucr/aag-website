@@ -5,9 +5,9 @@ import Image from "next/image";
 const Board = ({ image, role, name }) => {
   return (
     // <div>Board</div>
-    <div className="font-Poppins font-bold">
+    <div className="font-jost font-bold">
       <Image
-        className="aspect-square object-cover"
+        className="aspect-square object-cover w-56"
         src={image}
         alt="Board Member"
       />
