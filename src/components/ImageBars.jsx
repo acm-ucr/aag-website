@@ -8,7 +8,7 @@ import image5 from "../../public/image_5.png";
 
 const ImageBars = () => {
   return (
-    <div className="flex scale-125 my-[8%]">
+    <div className="flex my-[8%]">
       <Image
         src={image1}
         alt="Blue Dancer"
