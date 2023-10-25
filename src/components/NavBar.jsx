@@ -5,7 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
 const NavBar = () => {
-  const [selected, setSelected] = useState(typeof window !== 'undefined' ? window.location.pathname : "");
+  const [selected, setSelected] = useState(
+    typeof window !== "undefined" ? window.location.pathname : ""
+  );
   const textFormat =
     "transition ease-in-out hover:!text-aag-red font-light mb-0 px-3 text-white text-xl whitespace-nowrap";
   return (
