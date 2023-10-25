@@ -3,7 +3,7 @@ import JoinIcon from "@/components/JoinIcon";
 
 const JoinIcons = ({}) => {
   return (
-    <div className="w-1/2 flex justify-between mt-[6%]">
+    <div className="w-7/12 flex justify-between mt-[6%]">
       <JoinIcon type="gigsalad" />
       <JoinIcon type="instagram" />
       <JoinIcon type="facebook" />

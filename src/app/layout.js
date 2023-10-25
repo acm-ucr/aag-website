@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${jost.variable}`}>
       <body className={` bg-black`}>
         <NavBar />
-        <div className="w-full flex flex-col min-h-screen overflow-hidden items-center mb-20 font-jost">
+        <div className="mt-5 w-full flex flex-col min-h-screen overflow-hidden items-center mb-20 font-jost">
           {children}
         </div>
         <Footer />
