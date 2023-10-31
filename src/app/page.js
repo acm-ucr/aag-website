@@ -2,10 +2,11 @@ import TextBlock from "@/components/TextBlock";
 import ImageBars from "@/components/ImageBars";
 import JoinButton from "@/components/JoinButton";
 import JoinIcons from "@/components/JoinIcons";
-
+import Title from "@/components/Title";
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
+      <Title />
       <TextBlock
         title="ABOUT US"
         text="Aag at UCR, is Riverside's premier All-Male Bollywood Fusion Team! We specialize in various styles such as hip-hop, contemporary, jazz, bollywood, etc! We want to share our love and passion for dance with the community and allow for our dancers to flourish in a supportive environment."
