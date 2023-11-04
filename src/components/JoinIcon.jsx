@@ -16,7 +16,11 @@ const JoinIcon = ({ type }) => {
   if (type === "instagram") {
     return (
       <div className="text-white">
-        <Link className={iconFormat} href="https://www.instagram.com/ucraag">
+        <Link
+          target="_blank"
+          className={iconFormat}
+          href="https://www.instagram.com/ucraag"
+        >
           <AiOutlineInstagram />
           <p className={textFormat}>Instagram</p>
         </Link>
@@ -26,7 +30,11 @@ const JoinIcon = ({ type }) => {
   if (type === "tiktok") {
     return (
       <div className="text-white">
-        <Link className={iconFormat} href="https://www.tiktok.com/@ucraag">
+        <Link
+          target="_blank"
+          className={iconFormat}
+          href="https://www.tiktok.com/@ucraag"
+        >
           <BiLogoTiktok />
           <p className={textFormat}>Tiktok</p>
         </Link>
@@ -37,6 +45,7 @@ const JoinIcon = ({ type }) => {
     return (
       <div className="text-white">
         <Link
+          target="_blank"
           className={iconFormat}
           href="https://www.youtube.com/@ucraag/videos"
         >
@@ -50,6 +59,7 @@ const JoinIcon = ({ type }) => {
     return (
       <div className="text-white">
         <Link
+          target="_blank"
           className={iconFormat}
           href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61550312611527"
         >
@@ -63,6 +73,7 @@ const JoinIcon = ({ type }) => {
     return (
       <div className="text-white">
         <Link
+          target="_blank"
           className={iconFormat}
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >

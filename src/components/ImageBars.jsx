@@ -9,16 +9,16 @@ import redbar from "../../public/redbars.svg";
 
 const ImageBars = () => {
   return (
-    <div className="relative flex flex-col items-center lg:w-3/5 w-full justify-center">
+    <div className="scale-110 relative flex flex-col items-center lg:w-3/5 w-full justify-center">
       <Image
         src={redbar}
         alt="red stripes"
-        className="self-end w-1/6 md:w-1/5 blur-sm"
+        className="self-end w-1/5 blur-sm"
       />
       <Image
         src={redbar}
         alt="red stripes"
-        className="rotate-180 self-start w-1/6 md:w-1/5 blur-sm"
+        className="rotate-180 self-start w-1/5 blur-sm"
       />
       <div className="flex my-[8%] lg:scale-110 object-contain absolute z-10 w-3/4">
         <Image
