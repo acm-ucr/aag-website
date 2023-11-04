@@ -8,11 +8,9 @@ const Events = () => {
       <Image
         src={fire}
         alt="Background"
-        className="h-[30vh] object-cover md:h-auto rotate-180 absolute top-0 -z-10"
+        className="scale-110 object-contain rotate-180 absolute top-0"
       />
-      <div className="text-white">
-        <PageTitle title="EVENTS" />
-      </div>
+      <PageTitle title="EVENTS" />
     </>
   );
 };
