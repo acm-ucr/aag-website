@@ -15,7 +15,7 @@ const NavBar = () => {
       collapseOnSelect
       expand="md"
       fixed="top"
-      className="w-full m-0 md:min-h-[5vh] p-0 !bg-black/50 justify-between items-center backdrop-blur-sm"
+      className=" justify-end w-full md:min-h-[5vh] p-0 !bg-black/50 backdrop-blur-sm"
     >
       <Navbar.Toggle
         className="list-unstyled !text-transparent border-0"
