@@ -4,9 +4,17 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { boards } from "@/data/boards";
 import PageTitle from "@/components/PageTitle";
+import Image from "next/image";
+import fire from "public/fire.png";
+
 const Boards = () => {
   return (
     <>
+      <Image
+        src={fire}
+        alt="Background"
+        className="h-[30vh] object-cover md:h-auto rotate-180 absolute top-0 -z-10"
+      />
       <PageTitle title="BOARDS" />
       <Row className="w-7/12 flex items-center justify-start">
         {boards.map((board, index) => (
