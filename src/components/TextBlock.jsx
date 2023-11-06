@@ -11,7 +11,7 @@ const TextBlock = ({ title, text }) => {
       <div className="text-xl pl-3 font-bold border-l-[10px] border-aag-red mb-[8%] md:text-3xl">
         {title}
       </div>
-      <p className=" text-center text-2lg md:text-xl">{text}</p>
+      <p className=" text-center md:text-xl">{text}</p>
     </div>
   );
 };
