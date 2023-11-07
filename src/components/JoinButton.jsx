@@ -5,7 +5,7 @@ const JoinButton = () => {
   return (
     <Link
       target="_blank"
-      className="transition ease-in-out bg-gradient-to-r from-aag-red to-aag-orange md:text-3xl text-xl text-white font-bold px-[4%] md:rounded-none rounded-sm py-[1%] 
+      className="transition ease-in-out bg-gradient-to-r from-aag-red to-aag-orange md:text-4xl text-3xl px-5 py-3 text-white font-bold md:px-12 md:rounded-none rounded-sm md:py-3.5 
     hover:opacity-80 active:opacity-60"
       href=" https://docs.google.com/forms/d/e/1FAIpQLSd-83k_aUvm_-HMH4LZRpsSVBMDFK8yf3uRygBaFVJHRZQqnw/viewform"
     >

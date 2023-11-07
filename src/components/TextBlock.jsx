@@ -2,7 +2,7 @@ import React from "react";
 
 const TextBlock = ({ title, text }) => {
   return (
-    <div className="text-white flex flex-col items-center font-jost  my-[5%] w-3/4 md:w-1/2">
+    <div className="text-white flex flex-col items-center font-jost my-[8%] w-3/4 md:w-1/2">
       {title === "ABOUT US" && (
         <p className="text-aag-red text-2lg mb-3 font-bold md:text-xl">
           who we are
