@@ -12,6 +12,7 @@ const Footer = () => {
   return (
     <div className="text-white w-full pt-[15%] pb-[2%] px-[3%] flex justify-between items-end bg-gradient-to-b from-transparent to-aag-red font-jost">
       <Link
+        target="_blank"
         href="/"
         className="transition ease-in-out hover:opacity-80 flex items-end scale-110"
       >
@@ -28,19 +29,25 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col text-3xl items-center">
-          <Link href="https://www.instagram.com/ucraag/">
+          <Link target="_blank" href="https://www.instagram.com/ucraag/">
             <AiOutlineInstagram className="transition ease-in-out scale-110 mb-0.5 hover:opacity-80 hover:text-aag-red hover:scale-95" />
           </Link>
 
-          <Link href="https://www.facebook.com/people/UCR-Aag/61550312611527/">
+          <Link
+            target="_blank"
+            href="https://www.facebook.com/people/UCR-Aag/61550312611527/"
+          >
             <AiFillFacebook className="transition ease-in-out my-0.5 hover:opacity-80 hover:text-aag-red hover:scale-95" />
           </Link>
 
-          <Link href="https://www.tiktok.com/@ucraag?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1">
+          <Link
+            target="_blank"
+            href="https://www.tiktok.com/@ucraag?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1"
+          >
             <BsTiktok className="transition ease-in-out my-0.5 text-2xl hover:opacity-80 hover:text-aag-red hover:scale-95" />
           </Link>
 
-          <Link href="https://www.youtube.com/@ucraag/videos">
+          <Link target="_blank" href="https://www.youtube.com/@ucraag/videos">
             <AiFillYoutube className="transition ease-in-out mt-0.5 hover:text-aag-red hover:scale-95" />
           </Link>
         </div>

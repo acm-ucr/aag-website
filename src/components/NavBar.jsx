@@ -15,7 +15,7 @@ const NavBar = () => {
       collapseOnSelect
       expand="md"
       fixed="top"
-      className="w-full m-0 md:min-h-[5vh] p-0 !bg-black/50 justify-between items-center backdrop-blur-sm"
+      className=" justify-end w-full md:min-h-[5vh] p-0 !bg-black/50 backdrop-blur-sm"
     >
       <Navbar.Toggle
         className="list-unstyled !text-transparent border-0"
@@ -23,7 +23,7 @@ const NavBar = () => {
       >
         <FaBars className="text-white text-4xl" />
       </Navbar.Toggle>
-      <Navbar.Collapse className="items-center justify-center flex">
+      <Navbar.Collapse className="items-center justify-end mr-8 flex">
         <Nav className="flex items-center">
           <Nav.Link
             as={Link}
@@ -36,18 +36,6 @@ const NavBar = () => {
             }`}
           >
             ABOUT
-          </Nav.Link>
-          <Nav.Link
-            as={Link}
-            href="/events"
-            onClick={() => {
-              setSelected("/events");
-            }}
-            className={`${textFormat} ${
-              selected === "/events" ? "underline" : "no-underline"
-            }`}
-          >
-            EVENTS
           </Nav.Link>
           <Nav.Link
             as={Link}

@@ -13,6 +13,7 @@ const Home = () => {
       />
       <ImageBars />
       <TextBlock
+        className="mb-10"
         title="JOIN US"
         text=" We are so excited for the upcoming year and are looking forward to building our team. Please fill out this google form so we can gauge interest and start pushing out information for Fall recruiting."
       />

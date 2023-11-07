@@ -6,19 +6,19 @@ import JoinButton from "./JoinButton";
 
 const Title = () => {
   return (
-    <div className="relative flex flex-col items-center w-full">
+    <div className="relative flex flex-col items-center w-full mb-[7%]">
       <Image
         src={image1}
         alt="Background"
-        className="h-[30vh] object-cover md:h-auto"
+        className="h-[60vh] object-cover md:h-[85vh] md:scale-125 w-full"
       />
-      <div className="w-full pt-3 absolute top-2 flex flex-col items-center z-10">
+      <div className="w-full mt-[15%] md:mt-[4%] absolute top-2 flex flex-col items-center z-10">
         <Image
           src={image2}
           alt="Logo"
-          className="md:w-1/6 w-1/4 object-contain"
+          className="md:w-1/5 w-2/5 object-contain"
         />
-        <p className="mb-[5%] text-lg md:text-3xl mt-3 text-white font-bold">
+        <p className="md:mb-[7%] mb-[20%] text-2xl md:text-4xl mt-8 text-white font-bold">
           Fusion Dance Team at UCR
         </p>
         <JoinButton />
