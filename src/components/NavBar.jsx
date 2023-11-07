@@ -24,7 +24,7 @@ const NavBar = () => {
         <FaBars className="text-white text-4xl" />
       </Navbar.Toggle>
       <Navbar.Collapse className="items-center justify-end md:mr-8 flex">
-        <Nav className="flex items-center w-full">
+        <Nav className="flex items-center w-full md:w-auto">
           <Nav.Link
             as={Link}
             href="/"

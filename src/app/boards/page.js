@@ -13,7 +13,7 @@ const Boards = () => {
       <Image
         src={fire}
         alt="Background"
-        className=" -translate-y-[10%] object-contain rotate-180 absolute top-0"
+        className=" -translate-y-[7%] object-contain rotate-180 absolute top-0"
       />
       <PageTitle title="BOARDS" />
       <Row className="ml-[20%] md:ml-0 translate-x-[3%] md:w-8/12 z-10 mt-[5%]">
