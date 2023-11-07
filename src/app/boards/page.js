@@ -13,10 +13,10 @@ const Boards = () => {
       <Image
         src={fire}
         alt="Background"
-        className="scale-110 object-contain rotate-180 absolute top-0"
+        className=" -translate-y-[10%] object-contain rotate-180 absolute top-0"
       />
       <PageTitle title="BOARDS" />
-      <Row className="ml-[20%] md:ml-3 md:w-7/12 z-10">
+      <Row className="ml-[20%] md:ml-3 md:w-7/12 z-10 mt-[10%]">
         {boards.map((board, index) => (
           <Col key={index} xs={10} sm={2} lg={4}>
             <Board
