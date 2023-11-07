@@ -16,9 +16,9 @@ const Title = () => {
         <Image
           src={image2}
           alt="Logo"
-          className="md:w-1/5 w-2/5 object-contain"
+          className="md:w-1/6 w-2/5 object-contain"
         />
-        <p className="md:mb-[7%] mb-[20%] text-2xl md:text-4xl mt-8 text-white font-bold">
+        <p className="md:mb-[7%] mb-[20%] text-2xl md:text-3xl mt-8 text-white font-bold">
           Fusion Dance Team at UCR
         </p>
         <JoinButton />
