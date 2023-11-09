@@ -1,10 +1,10 @@
-import Cat from "../../public/cat.png";
 import Nikhil from "../../public/Nikhil.JPG";
 import Hrithik from "../../public/Hrithik.JPG";
 import Ridvik from "../../public/Ridvik.JPG";
 import Dhruv from "../../public/Dhruv.JPG";
 import Sakshi from "../../public/Sakshi.JPG";
 import Anokhi from "../../public/Anokhi.JPG";
+import Arvind from "../../public/Arvind.JPG";
 
 export const boards = [
   {
@@ -15,7 +15,7 @@ export const boards = [
   {
     name: "Arvind Upadhya",
     position: "Captain",
-    image: Cat,
+    image: Arvind,
   },
   {
     name: "Hrithik Jariwala",
