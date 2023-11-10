@@ -10,29 +10,29 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="text-white w-full pt-[15%] lg:pb-[2%] pb-[4%] px-[3%] flex justify-between items-end bg-gradient-to-b from-transparent to-aag-red font-jost">
+    <div className="text-white w-full pt-[15%] md:pb-[2%] pb-[4%] px-[3%] flex justify-between items-end bg-gradient-to-b from-transparent to-aag-red font-jost">
       <Link
         target="_blank"
         href="/"
-        className="transition ease-in-out hover:opacity-80 flex items-end md:first-line:scale-110"
+        className="transition ease-in-out hover:opacity-80 flex items-end md:scale-110"
       >
-        <Image className="lg:w-2/5 w-1/4" src={logo} alt="logo" />
+        <Image className="md:w-full w-1/4" src={logo} alt="logo" />
         <Image
-          className="lg:w-full w-1/2 lg:ml-[10%] ml-[7%]"
+          className="md:w-full w-1/2 md:ml-[10%] ml-[7%]"
           src={aag}
           alt="logo"
         />
       </Link>
 
       <div className="flex text-white">
-        <div className="flex flex-col border-r-4 lg:mx-2 mx-1 font-bold lg:text-2xl text-xs border-white pr-2 text-right">
+        <div className="flex flex-col border-r-4 md:mx-2 mx-1 font-bold lg:text-2xl text-xs border-white pr-2 text-right">
           <p>Contact Us </p>
           <p>900 University Ave</p>
           <p>Riverside, CA</p>
           <p>92521</p>
         </div>
 
-        <div className="flex flex-col lg:text-3xl text-xs items-center">
+        <div className="flex flex-col md:text-3xl text-xs items-center">
           <Link target="_blank" href="https://www.instagram.com/ucraag/">
             <AiOutlineInstagram className="transition ease-in-out scale-110 mb-0.5 hover:opacity-80 hover:text-aag-red hover:scale-95" />
           </Link>
