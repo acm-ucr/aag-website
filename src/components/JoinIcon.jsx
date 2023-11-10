@@ -9,7 +9,7 @@ import {
 import { BiLogoTiktok } from "react-icons/bi";
 
 const iconFormat =
-  "transition ease-in-out hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5";
+  "transition ease-in-out active:text-aag-red md:hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5";
 const textFormat = "md:text-xl text-base font-light";
 
 const JoinIcon = ({ type }) => {
