@@ -78,12 +78,12 @@ const JoinIcon = ({ type }) => {
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >
           <Image
-            className="fill-aag-red pt-1"
+            className="scale-90 md:scale-100"
             width="60"
             height="60"
             src="logo.svg"
           />
-          <p className="text-xl font-light mt-4">GigSalad</p>
+          <p className="md:text-xl text-base font-light pt-1">GigSalad</p>
         </Link>
       </div>
     );
