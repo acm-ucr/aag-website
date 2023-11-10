@@ -9,13 +9,13 @@ import {
 import { BiLogoTiktok } from "react-icons/bi";
 
 const iconFormat =
-  "transition ease-in-out hover:text-aag-red text-6xl flex flex-col justify-center items-center space-y-5";
-const textFormat = "text-xl font-light";
+  "transition ease-in-out active:text-aag-red md:hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5";
+const textFormat = "md:text-xl text-base font-light";
 
 const JoinIcon = ({ type }) => {
   if (type === "instagram") {
     return (
-      <div className="text-white">
+      <div className="text-white ">
         <Link
           target="_blank"
           className={iconFormat}
