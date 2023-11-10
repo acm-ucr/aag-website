@@ -9,7 +9,7 @@ import redbar from "../../public/redbars.svg";
 
 const ImageBars = () => {
   return (
-    <div className=" -my-[3%] md:scale-125 relative flex flex-col items-center lg:w-3/5 w-full justify-center">
+    <div className=" -my-[3%] scale-125 relative flex flex-col items-center lg:w-3/5 w-full justify-center">
       <Image
         src={redbar}
         alt="red stripes"

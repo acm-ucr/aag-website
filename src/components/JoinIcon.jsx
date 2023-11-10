@@ -9,13 +9,13 @@ import {
 import { BiLogoTiktok } from "react-icons/bi";
 
 const iconFormat =
-  "transition ease-in-out hover:text-aag-red text-6xl flex flex-col justify-center items-center space-y-5";
-const textFormat = "text-xl font-light";
+  "transition ease-in-out active:text-aag-red md:hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5";
+const textFormat = "md:text-xl text-base font-light";
 
 const JoinIcon = ({ type }) => {
   if (type === "instagram") {
     return (
-      <div className="text-white">
+      <div className="text-white ">
         <Link
           target="_blank"
           className={iconFormat}
@@ -78,12 +78,12 @@ const JoinIcon = ({ type }) => {
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >
           <Image
-            className="fill-aag-red pt-1"
+            className="scale-90 md:scale-100"
             width="60"
             height="60"
             src="logo.svg"
           />
-          <p className="text-xl font-light mt-4">GigSalad</p>
+          <p className="md:text-xl text-base font-light pt-1">GigSalad</p>
         </Link>
       </div>
     );
