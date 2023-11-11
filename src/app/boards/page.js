@@ -18,6 +18,9 @@ const Boards = () => {
           </Col>
         ))}
       </Row>
+      <Title>
+      AAG | Boards
+      </Title>
     </>
   );
 };
