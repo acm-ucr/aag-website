@@ -10,6 +10,9 @@ import fire from "public/fire.png";
 const Boards = () => {
   return (
     <>
+      <title>
+        AAG | Boards
+      </title>
       <Image
         src={fire}
         alt="Background"
@@ -27,9 +30,6 @@ const Boards = () => {
           </Col>
         ))}
       </Row>
-      <Title>
-      AAG | Boards
-      </Title>
     </>
   );
 };
