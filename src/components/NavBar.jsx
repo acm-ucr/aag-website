@@ -49,6 +49,18 @@ const NavBar = () => {
           >
             BOARDS
           </Nav.Link>
+          <Nav.Link
+            as={Link}
+            href="/about"
+            onClick={() => {
+              setSelected("/about");
+            }}
+            className={`${textFormat} ${
+              selected === "/about" ? "underline" : "no-underline"
+            }`}
+          >
+            ABOUT
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
