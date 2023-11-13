@@ -39,7 +39,7 @@ const NavBar = () => {
           </Nav.Link>
           <Nav.Link
             as={Link}
-            href="/boards"
+            href="/board"
             onClick={() => {
               setSelected("/boards");
             }}
