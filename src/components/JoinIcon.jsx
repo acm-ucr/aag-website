@@ -9,14 +9,18 @@ import {
 import { BiLogoTiktok } from "react-icons/bi";
 
 const iconFormat =
-  "transition ease-in-out hover:text-aag-red text-6xl flex flex-col justify-center items-center space-y-5";
-const textFormat = "text-xl font-light";
+  "transition ease-in-out active:text-aag-red md:hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5";
+const textFormat = "md:text-xl text-base font-light";
 
 const JoinIcon = ({ type }) => {
   if (type === "instagram") {
     return (
-      <div className="text-white">
-        <Link className={iconFormat} href="https://www.instagram.com/ucraag">
+      <div className="text-white ">
+        <Link
+          target="_blank"
+          className={iconFormat}
+          href="https://www.instagram.com/ucraag"
+        >
           <AiOutlineInstagram />
           <p className={textFormat}>Instagram</p>
         </Link>
@@ -26,7 +30,11 @@ const JoinIcon = ({ type }) => {
   if (type === "tiktok") {
     return (
       <div className="text-white">
-        <Link className={iconFormat} href="https://www.tiktok.com/@ucraag">
+        <Link
+          target="_blank"
+          className={iconFormat}
+          href="https://www.tiktok.com/@ucraag"
+        >
           <BiLogoTiktok />
           <p className={textFormat}>Tiktok</p>
         </Link>
@@ -37,6 +45,7 @@ const JoinIcon = ({ type }) => {
     return (
       <div className="text-white">
         <Link
+          target="_blank"
           className={iconFormat}
           href="https://www.youtube.com/@ucraag/videos"
         >
@@ -50,6 +59,7 @@ const JoinIcon = ({ type }) => {
     return (
       <div className="text-white">
         <Link
+          target="_blank"
           className={iconFormat}
           href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61550312611527"
         >
@@ -63,16 +73,17 @@ const JoinIcon = ({ type }) => {
     return (
       <div className="text-white">
         <Link
+          target="_blank"
           className={iconFormat}
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >
           <Image
-            className="fill-aag-red pt-1"
+            className="scale-90 md:scale-100"
             width="60"
             height="60"
             src="logo.svg"
           />
-          <p className="text-xl font-light mt-4">GigSalad</p>
+          <p className="md:text-xl text-base font-light pt-1">GigSalad</p>
         </Link>
       </div>
     );
