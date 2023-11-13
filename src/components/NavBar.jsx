@@ -27,12 +27,12 @@ const NavBar = () => {
         <Nav className="flex items-center w-full md:w-auto">
           <Nav.Link
             as={Link}
-            href="/"
+            href="/about"
             onClick={() => {
-              setSelected("/");
+              setSelected("/about");
             }}
             className={`${textFormat} ${
-              selected === "/" ? "underline" : "no-underline"
+              selected === "/about" ? "underline" : "no-underline"
             }`}
           >
             ABOUT
@@ -48,18 +48,6 @@ const NavBar = () => {
             }`}
           >
             BOARDS
-          </Nav.Link>
-          <Nav.Link
-            as={Link}
-            href="/about"
-            onClick={() => {
-              setSelected("/about");
-            }}
-            className={`${textFormat} ${
-              selected === "/about" ? "underline" : "no-underline"
-            }`}
-          >
-            ABOUT
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
