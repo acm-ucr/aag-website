@@ -10,6 +10,7 @@ import fire from "public/fire.png";
 const Boards = () => {
   return (
     <>
+      <title>AAG | Board</title>
       <Image
         src={fire}
         alt="Background"
