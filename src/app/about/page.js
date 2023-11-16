@@ -5,7 +5,7 @@ import fire from "public/fire.png";
 import ReactPlayer from "react-player";
 const About = () => {
   return (
-    <div>
+    <>
       <title>AAG | About</title>
       <Image
         src={fire}
@@ -14,7 +14,7 @@ const About = () => {
       />
       <PageTitle title="ABOUT" />
       <ReactPlayer url="https://youtu.be/W-9_lIJpM2I" />
-    </div>
+    </>
   );
 };
 
