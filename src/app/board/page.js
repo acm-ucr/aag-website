@@ -14,12 +14,12 @@ const Boards = () => {
       <Image
         src={fire}
         alt="Background"
-        className=" -translate-y-[7%] object-contain rotate-180 absolute top-0"
+        className=" -translate-y-[7%] object-contain rotate-180 absolute top-0 -z-10"
       />
       <PageTitle title="BOARDS" />
-      <Row className="ml-[20%] md:ml-0 md:translate-x-[5%] md:w-8/12 z-10 mt-[5%]">
+      <Row className="md:w-8/12 mt-[5%] flex justify-evenly">
         {boards.map((board, index) => (
-          <Col key={index} xs={10} sm={2} lg={4}>
+          <Col key={index} xs={10} sm={2} lg={4} className="w-fit">
             <Board
               image={board.image}
               position={board.position}
