@@ -19,7 +19,7 @@ const NavBar = () => {
       className=" justify-end w-full md:min-h-[5vh] p-0 !bg-black/50 backdrop-blur-sm"
     >
       <Link
-        className="flex px-3 space-x-3"
+        className="flex px-3 space-x-3 opacity-80 hover:opacity-50 transition"
         onClick={() => {
           setSelected("/");
         }}
