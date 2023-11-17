@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import { React, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -9,10 +10,11 @@ import {
 import { BiLogoTiktok } from "react-icons/bi";
 
 const iconFormat =
-  "transition ease-in-out active:text-aag-red md:hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5";
+  "transition ease-in-out active:text-aag-red md:hover:text-aag-red md:text-6xl text-5xl flex flex-col justify-center items-center md:space-y-5 active:scale-95";
 const textFormat = "md:text-xl text-base font-light";
 
 const JoinIcon = ({ type }) => {
+  const [hover, setHover] = useState(false);
   if (type === "instagram") {
     return (
       <div className="text-white ">
@@ -75,15 +77,24 @@ const JoinIcon = ({ type }) => {
         <Link
           target="_blank"
           className={iconFormat}
+          onMouseOver={() => setHover(true)}
+          onClick={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
           href="https://www.gigsalad.com/ucr_aag_riverside"
         >
           <Image
             className="scale-90 md:scale-100"
             width="60"
             height="60"
-            src="logo.svg"
+            src={`${hover ? "logoRed.svg" : "logo.svg"}`}
           />
-          <p className="md:text-xl text-base font-light pt-1">GigSalad</p>
+          <p
+            className={`md:text-xl text-base font-light pt-1 ${
+              hover ? "!text-aag-red" : "!text-white"
+            }`}
+          >
+            GigSalad
+          </p>
         </Link>
       </div>
     );

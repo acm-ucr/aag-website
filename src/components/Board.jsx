@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Board = ({ image, position, name }) => {
   return (
-    <div className="font-jost font-bold w-fit">
+    <div className="font-jost font-bold w-52">
       <Image
-        className="aspect-square object-cover w-52 my-4"
+        className="aspect-square object-cover my-4"
         src={image}
         alt="Board Member"
       />
