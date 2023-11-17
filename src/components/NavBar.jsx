@@ -19,7 +19,7 @@ const NavBar = () => {
       className=" justify-end w-full md:min-h-[5vh] p-0 !bg-black/50 backdrop-blur-sm"
     >
       <Link
-        className="flex px-3 space-x-3 opacity-80 hover:opacity-50 transition"
+        className="flex flex-grow px-3 space-x-3 opacity-80 hover:opacity-50 transition"
         onClick={() => {
           setSelected("/");
         }}
@@ -32,7 +32,7 @@ const NavBar = () => {
         className="list-unstyled !text-transparent border-0"
         aria-controls="basic-navbar-nav"
       >
-        <FaBars className="text-4xl" />
+        <FaBars className="text-white text-4xl" />
       </Navbar.Toggle>
       <Navbar.Collapse className="items-center justify-end md:mr-8 flex">
         <Nav className="flex items-center w-full md:w-auto">
