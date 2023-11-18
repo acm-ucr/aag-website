@@ -16,7 +16,7 @@ const Boards = () => {
         alt="Background"
         className=" -translate-y-[7%] object-contain rotate-180 absolute top-0 -z-10"
       />
-      <PageTitle title="BOARDS" />
+      <PageTitle title="BOARD" />
       <Row className="md:w-8/12 mt-[5%] flex justify-evenly">
         {boards.map((board, index) => (
           <Col key={index} xs={10} sm={2} lg={4} className="w-fit">
