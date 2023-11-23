@@ -12,7 +12,6 @@ const Footer = () => {
   return (
     <div className="text-white w-full pt-[15%] md:pb-[2%] pb-[4%] px-[3%] flex justify-between items-end bg-gradient-to-b from-transparent to-aag-red font-jost">
       <Link
-        target="_blank"
         href="/"
         className="transition ease-in-out hover:opacity-80 flex items-end md:scale-110"
       >
