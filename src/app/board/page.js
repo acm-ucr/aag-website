@@ -14,7 +14,7 @@ const Boards = () => {
         alt="Background"
         className=" -translate-y-[7%] object-contain rotate-180 absolute top-0 -z-10"
       />
-      <PageTitle title="BOARDS" />
+      <PageTitle title="BOARD" />
       <div className="w-full flex justify-center">
         <div className=" md:gap-16 md:grid-cols-3 grid grid-cols-1">
           {boards.map((board, index) => (
