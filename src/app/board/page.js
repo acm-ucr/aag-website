@@ -1,7 +1,5 @@
 import React from "react";
 import Board from "@/components/Board/";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import { boards } from "@/data/boards";
 import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
@@ -17,17 +15,18 @@ const Boards = () => {
         className=" -translate-y-[7%] object-contain rotate-180 absolute top-0 -z-10"
       />
       <PageTitle title="BOARD" />
-      <Row className="md:w-8/12 mt-[5%] flex justify-evenly">
-        {boards.map((board, index) => (
-          <Col key={index} xs={10} sm={2} lg={4} className="w-fit">
+      <div className="w-full flex justify-center">
+        <div className=" md:gap-16 md:grid-cols-3 grid grid-cols-1">
+          {boards.map((board, index) => (
             <Board
+              key={index}
               image={board.image}
               position={board.position}
               name={board.name}
             />
-          </Col>
-        ))}
-      </Row>
+          ))}
+        </div>
+      </div>
     </>
   );
 };
