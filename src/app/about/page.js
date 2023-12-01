@@ -3,6 +3,7 @@ import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
 import fire from "public/fire.png";
 import Video from "@/components/Video";
+import { videos } from "@/data/videos";
 const About = () => {
   return (
     <>
@@ -13,14 +14,9 @@ const About = () => {
         className=" -z-10 -translate-y-[7%] object-contain rotate-180 absolute top-0"
       />
       <PageTitle title="ABOUT" />
-      <Video
-        title="AAG: The Beginning"
-        link="https://www.youtube.com/embed/W-9_lIJpM2I"
-      />
-      <Video
-        title="AAG: The Beginning"
-        link="https://www.youtube.com/embed/rM87uwSaH2M"
-      />
+      {videos.map((video, index) => (
+        <Video key={index} title={video.title} link={video.link} />
+      ))}
     </>
   );
 };
