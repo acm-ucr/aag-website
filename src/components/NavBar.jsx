@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+
 const NavBar = () => {
   const [selected, setSelected] = useState(
     typeof window !== "undefined" ? window.location.pathname : ""
