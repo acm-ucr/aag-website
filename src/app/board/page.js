@@ -3,7 +3,7 @@ import Board from "@/components/Board/";
 import { boards } from "@/data/boards";
 import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
-import fire from "public/fire.png";
+import fire from "/public/fire.png";
 
 const Boards = () => {
   return (
