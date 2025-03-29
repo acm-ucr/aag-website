@@ -25,8 +25,8 @@ const NavBar = () => {
         }}
         href="/"
       >
-        <Image width="40" height="40" src="logo.svg" />
-        <Image width="100" height="40" src="aag.svg" />
+        <Image width="40" alt="flames" height="40" src="logo.svg" />
+        <Image width="100" alt="flames" height="40" src="aag.svg" />
       </Link>
       <Navbar.Toggle
         className="list-unstyled !text-transparent border-0"
