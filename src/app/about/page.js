@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
-import fire from "public/fire.png";
+import fire from "/public/fire.png";
 import Video from "@/components/Video";
 import { videos } from "@/data/videos";
 const About = () => {
